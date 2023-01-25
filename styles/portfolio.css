@@ -8,11 +8,38 @@ body {
 h1 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
+  font-size: 96px;
   color: black;
 }
 
+h2,
+h3,
 p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
-  color: grey;
+}
+
+.hero {
+  background-color: rgba(290, 200, 228, 0.25);
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 24px;
+  line-height: 2;
+  color: purple;
+}
+
+.hero h3 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.btn-branding {
+  background: purple;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
 }
