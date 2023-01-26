@@ -17,7 +17,9 @@ h1 {
   font-size: 96px;
   color: var(--secondary-color);
 }
-
+.about-section {
+  padding: 160px 20px;
+}
 .about-section h1 {
   font-size: 64px;
   line-height: 80px;
