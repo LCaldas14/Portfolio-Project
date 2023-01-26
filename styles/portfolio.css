@@ -101,7 +101,8 @@ p {
     padding: 15px 20px;
     margin-top: 15px;
   }
-  .row {
-    margin: 0px !important;
+
+  .m-5 {
+    margin: 20px !important;
   }
 }
