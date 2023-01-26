@@ -105,4 +105,7 @@ p {
   .m-5 {
     margin: 20px !important;
   }
+  .mb-5 {
+    margin-bottom: 10px !important;
+  }
 }
