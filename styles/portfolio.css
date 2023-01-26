@@ -81,18 +81,24 @@ p {
 
 @media (max-width: 960px) {
   h1 {
-    font-size: 50px;
-  }
-  h2 {
     font-size: 45px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 30px;
   }
   .hero {
-    padding: 60px 20px;
+    padding: 90px 20px 60px;
   }
   .project-description {
     padding: 0;
     text-align: center;
-  
-}
+  }
+  .btn-branding {
+    font-size: 18px;
+    line-height: 25px;
+    padding: 15px 20px;
+    margin-top: 15px;
   }
 }
