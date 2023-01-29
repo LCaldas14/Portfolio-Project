@@ -140,9 +140,10 @@ footer .email-link {
   color: #272142;
   font-size: 24px;
 }
-
-footer .email-link:hover,
-.social-links a:hover {
+footer .email-link:hover {
+  color: var(--secondary-color);
+}
+footer .social-links a:hover {
   color: var(--secondary-color);
   border: solid 1px;
   border-color: var(--secondary-color);
@@ -156,7 +157,7 @@ footer .social-links a {
   background-color: var(--bg-color);
   padding: 10px 14px;
   border-radius: 50%;
-  transition: all 100ms ease-in-out;
+  transition: all 120ms ease-in-out;
 }
 
 @media (max-width: 960px) {
