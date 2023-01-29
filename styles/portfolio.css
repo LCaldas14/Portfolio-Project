@@ -74,8 +74,13 @@ h2 {
   font-size: 47px;
 }
 
-h4 {
+footer .contact-box h4 {
   font-family: var(--heading-font-family);
+  font-size: 35px;
+}
+
+footer .contact-box p {
+  margin: 0;
 }
 
 p {
@@ -140,7 +145,8 @@ footer {
 
 footer .contact-box {
   background-color: var(--bg-color);
-  padding: 30px;
+  padding: 30px 120px;
+  border-radius: 10px;
 }
 
 footer .email-link {
