@@ -12,7 +12,7 @@ body {
 }
 
 .logo {
-  max-width: 150px;
+  max-height: 40px;
 }
 nav {
   padding: 20px 0;
@@ -131,6 +131,10 @@ p {
 }
 
 @media (max-width: 960px) {
+  nav li {
+    font-size: 13px;
+  }
+
   h1 {
     font-size: 45px;
     line-height: 2;
