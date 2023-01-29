@@ -130,6 +130,10 @@ p {
   padding: 120px 30px 0px;
 }
 
+footer {
+  margin: 40px 0;
+}
+
 footer .email-link {
   text-align: center;
   text-decoration: none;
@@ -137,8 +141,18 @@ footer .email-link {
   font-size: 24px;
 }
 
-footer .email-link:hover {
+footer .email-link:hover,
+.social-links a:hover {
   color: var(--secondary-color);
+}
+
+footer .social-links a {
+  font-size: 28px;
+  margin: 0 10px;
+  color: darkseagreen;
+  background-color: var(--bg-color);
+  padding: 10px 14px;
+  border-radius: 50%;
 }
 
 @media (max-width: 960px) {
@@ -186,5 +200,9 @@ footer .email-link:hover {
 
   .content h1 {
     font-size: 60px;
+  }
+
+  footer .social-links a {
+    font-size: 18px;
   }
 }
