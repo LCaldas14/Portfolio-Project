@@ -11,6 +11,18 @@ body {
   background-color: white;
 }
 
+.logo {
+  max-width: 150px;
+}
+
+nav ul {
+  padding: none;
+}
+nav li {
+  display: inline;
+  list-style: none;
+}
+
 h1 {
   font-family: var(--heading-font-family);
   font-weight: bold;
