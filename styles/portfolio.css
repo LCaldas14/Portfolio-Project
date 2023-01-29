@@ -22,10 +22,20 @@ nav ul {
   margin: 0;
 }
 
+nav a {
+  color: #272142;
+}
+nav a:hover {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
 nav li {
   display: inline;
   list-style: none;
   line-height: 42px;
+  font-size: 16px;
+  margin-left: 10px;
 }
 
 h1 {
